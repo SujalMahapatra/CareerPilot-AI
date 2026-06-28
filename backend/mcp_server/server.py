@@ -150,5 +150,6 @@ else:
 # =====================================================================
 
 if __name__ == "__main__":
-    # Start the server using stdio transport
-    mcp.run()
+    print("Starting MCP Server...")
+    print(f"MCP Available: {HAS_MCP}")
+    print(f"Server Type: {type(mcp)}")
